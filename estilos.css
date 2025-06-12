@@ -1,0 +1,78 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+</style>
+
+body {
+  font-family: "roboto" sans-serif;
+  background-color: #fff8f0;
+  color: #4a3f35;
+  margin: 0;
+  padding: 0;}
+
+
+.nav-container {
+  margin: 20px;
+  padding: 10px 20px;}
+
+
+.nav-container a {
+  color: #a35e3d;
+  font-weight: 700;
+  padding: 8px 16px;}
+
+
+header {
+  background-color: #f4d7b8;
+  padding: 20px;
+  text-align: center;}
+
+
+header h1 {
+  font-weight: bold;
+  margin: 0;}
+
+
+section {
+  padding: 20px;
+  margin: auto;
+  background-color: #fff4e6;
+  margin-top: 20px;}
+
+
+article img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;}
+
+
+h2 {
+  color: #a35e3d;
+  border-bottom: 2px solid #d9a066;
+  margin-top: 30px;}
+
+ul, ol {
+  margin-left: 20px;
+  background-color: #fff1dc;
+  padding: 10px;}
+
+footer {
+  background-color: #e7b89d;
+  padding: 10px 20px;
+  margin-top: 40px;
+  border-top: 5px;}
+
+footer .logo-uces {
+  height: 40px;}
+
+footer .autor {
+  font-weight: bold;
+  color: #4a3f35;}
+
+section::after {
+  color: #d9a066;
+  margin-top: 10px;}
+
+img {
+  max-height: 30%;
+  max-width: 20%;
+}
